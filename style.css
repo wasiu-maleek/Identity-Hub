@@ -52,6 +52,7 @@ section {
 
 .logo {
   width: 163px;
+  height: auto;
 }
 
 a:link,
