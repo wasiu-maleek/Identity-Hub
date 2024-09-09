@@ -4,11 +4,16 @@
   box-sizing: border-box;
   color: #cad1e9;
 }
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "rubik", sans-serif;
   color: #cad1e9;
   background-color: #050520;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1;
 }
 
@@ -16,11 +21,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 10rem;
+  max-width: 100%;
 }
 
-.section-content {
-  width: 1200px;
+.section-content,
+.nav-bar {
+  max-width: 120rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,32 +39,29 @@ section {
   background-color: #050520;
   align-items: center;
   justify-content: center;
-  height: 90px;
+  height: 9rem;
   width: 100%;
   position: fixed;
   top: 0;
   border: solid 1.5px #1f2035;
-  border-radius: 20px;
-  margin-top: 8px;
+  border-radius: 2rem;
+  margin-top: 0.8rem;
   z-index: 2;
 }
 
 .nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 90px;
-  width: 1200px;
+  width: 120rem;
+  height: 9rem;
 }
 
 .logo {
-  width: 163px;
+  width: 16.3rem;
   height: auto;
 }
 
 a:link,
 a:visited {
-  padding: 0 14px;
+  padding: 0 1.4rem;
   text-decoration: none;
 }
 
@@ -71,14 +75,14 @@ a:hover,
 .nav-btn,
 .hero-btn-1,
 .hero-btn-2 {
-  padding: 14px 18px;
-  font-size: 14px;
+  padding: 1.4rem 1.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  height: 48px;
-  width: 166px;
+  height: 4.8rem;
+  width: 16.6rem;
 
   border: none;
-  border-radius: 12px;
+  border-radius: 1.2rem;
   color: white;
   background-image: linear-gradient(to bottom, #0b0b26, #21223c);
 
@@ -86,7 +90,7 @@ a:hover,
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .nav-btn::after,
@@ -127,16 +131,11 @@ a:hover,
 }
 
 .btn-icon {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
 }
-.hero-start {
+.hero-btn-free-trial {
   stroke: #ffad8b;
-}
-
-.txt-icon {
-  font-size: 20px;
-  margin-bottom: 2px;
 }
 
 /* HERO/SECTION 01 */
@@ -147,17 +146,17 @@ a:hover,
   background-position: top;
 }
 .hero-content {
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 .hero-text {
-  flex-basis: 480px;
+  flex-basis: 48rem;
 }
 
 .headline {
-  font-size: 72px;
+  font-size: 7.2rem;
   line-height: 1.2;
   letter-spacing: -1.5px;
-  margin-bottom: 28px;
+  margin-bottom: 2.8rem;
 }
 
 .h0ne {
@@ -170,48 +169,48 @@ a:hover,
 
 .subheading {
   line-height: 1.5;
-  width: 460px;
+  max-width: 46rem;
 }
 
 .hero-btn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 20px;
-  margin-top: 48px;
+  gap: 2rem;
+  margin-top: 4.8rem;
 }
 
 .hero img {
-  flex-basis: 523px;
-  height: 333px;
-  margin-right: 100px;
+  flex-basis: 52.3rem;
+  height: 33.3rem;
+  margin-right: 10rem;
 }
 
 /* SECTION 02 */
 .section-headline {
-  font-size: 56px;
+  font-size: 5.6rem;
   line-height: 1.2;
   letter-spacing: -1.5px;
-  margin-bottom: 28px;
+  margin-bottom: 2.8rem;
 }
 
 .section-text {
-  flex-basis: 600px;
+  flex-basis: 60rem;
 }
 
 .s2-img {
-  flex-basis: 598px;
-  height: 439px;
-  margin-right: 10px;
+  flex-basis: 59.8rem;
+  height: 43.9rem;
+  margin-right: 1rem;
 }
 
 /* SECTION 03 & 04 */
 .s3-img {
-  flex-basis: 504px;
+  flex-basis: 50.4rem;
   height: auto;
 }
 .s4-img {
-  flex-basis: 521px;
+  flex-basis: 52.1rem;
   height: auto;
 }
 
@@ -219,10 +218,10 @@ a:hover,
 
 .section-content5 {
   display: grid;
-  grid-template-columns: 1fr 564px;
-  grid-template-rows: 182px 504px 275px;
-  gap: 36px;
-  width: 1200px;
+  grid-template-columns: 1fr 56.4rem;
+  grid-template-rows: 18.2rem 50.4rem 27.5rem;
+  gap: 3.6rem;
+  width: 120rem;
 }
 
 .grid-header {
@@ -241,7 +240,7 @@ a:hover,
 .grid-item1,
 .grid-item2,
 .grid-item3 {
-  padding: 40px 0 0 40px;
+  padding: 4rem 0 0 4rem;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: cover;
@@ -259,11 +258,11 @@ a:hover,
   grid-column: 1/ -1;
   display: flex;
   align-items: center;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 4rem;
 }
 
 .grid-item-headline {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
