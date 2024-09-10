@@ -59,10 +59,20 @@ section {
   height: auto;
 }
 
+.nav-links-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
 a:link,
 a:visited {
+  display: inline-block;
   padding: 0 1.4rem;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 a:active,
@@ -79,7 +89,7 @@ a:hover,
   font-size: 1.4rem;
   font-weight: 500;
   height: 4.8rem;
-  width: 16.6rem;
+  width: 166px;
 
   border: none;
   border-radius: 1.2rem;
@@ -122,7 +132,7 @@ a:hover,
 }
 
 .hero-btn-1 p {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
   background: linear-gradient(to right, #b67efd, #f088d2, #ffad8b);
   -webkit-text-fill-color: transparent;
@@ -159,8 +169,7 @@ a:hover,
   margin-bottom: 2.8rem;
 }
 
-.h0ne {
-  margin-bottom: 0;
+.colored-text {
   background: linear-gradient(to right, #0084ff, #ff8ac7, #feba75);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
