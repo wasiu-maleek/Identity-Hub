@@ -1,0 +1,6 @@
+@media (max-width: 75em) {
+  .section-content,
+  .nav-bar {
+    max-width: 100rem;
+  }
+}
