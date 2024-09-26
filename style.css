@@ -17,6 +17,23 @@ body {
   line-height: 1;
 }
 
+.mobile-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-menu-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #222222;
+}
+
+.mobile-menu-icon[name="close-outline"] {
+  display: none;
+}
+
 section {
   display: flex;
   align-items: center;
@@ -52,6 +69,13 @@ section {
 .nav-bar {
   width: 120rem;
   height: 9rem;
+}
+
+.nav-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .logo {
@@ -90,6 +114,7 @@ a:hover,
   font-weight: 500;
   height: 4.8rem;
   width: 166px;
+  transition: all 0.4s;
 
   border: none;
   border-radius: 1.2rem;
@@ -221,6 +246,7 @@ a:hover,
   flex-basis: 50.4rem;
   height: auto;
 }
+
 .s4-img {
   flex-basis: 52.1rem;
   height: auto;
@@ -265,6 +291,7 @@ a:hover,
 .grid-item2 {
   background-image: url(images/s5-bg-img2.jpg);
 }
+
 .grid-item3 {
   background-image: url(images/s5-bg-img3.jpg);
   grid-column: 1/ -1;
@@ -426,6 +453,13 @@ a:hover,
   border: solid 2px #4e4e692f;
   border-radius: 1.6rem;
   background-image: linear-gradient(to bottom, #1b1c3600, #70717a2a);
+}
+
+.pricing-card:hover,
+.review:hover {
+  transform: translateY(-1rem);
+  transition: all 0.4s;
+  cursor: pointer;
 }
 
 .price {
