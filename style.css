@@ -133,7 +133,7 @@ a:hover,
 .hero-btn-2::after {
   content: "";
   position: absolute;
-  height: 52px;
+  height: 5.2rem;
   width: 170px;
   border: 2px;
   border-radius: 14px;
