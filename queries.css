@@ -67,6 +67,15 @@
     font-size: 56.25%;
   }
 
+  .mobile-menu-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .nav-bar {
+    height: 6rem;
+  }
+
   .mobile-menu {
     border: none;
     background: none;
