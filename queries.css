@@ -71,6 +71,9 @@
     height: 3.2rem;
     width: 3.2rem;
   }
+  .header {
+    height: 7rem;
+  }
 
   .nav-bar {
     height: 6rem;
