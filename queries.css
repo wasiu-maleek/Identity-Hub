@@ -120,6 +120,10 @@
     display: none;
   }
 
+  .hero-content {
+    margin-top: 3.2rem;
+  }
+
   .section-content,
   .nav-bar,
   .reviews,
