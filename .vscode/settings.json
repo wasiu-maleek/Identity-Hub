@@ -1,3 +1,10 @@
 {
-  "workbench.editor.enablePreviewFromCodeNavigation": false
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "breadcrumbs.enabled": true,
+  "zenMode.fullScreen": true,
+  "window.autoDetectColorScheme": false,
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "workbench.tree.indent": 8,
+  "workbench.view.alwaysShowHeaderActions": false
 }
